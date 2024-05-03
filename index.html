@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zarrin Pal</title>
+  <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <div class="contentBody">
+      <img src="./assets/image/logo.svg" />
+      <div class="cardGetNumberOrEmailBody">
+        <h2>ورود به زرین پال</h2>
+        <p>
+          برای استفاده از خدمات زرین‌پال، وارد حساب کاربری خود شوید.در صورت
+          نداشتن حساب کاربری <a href="#">ثبت‌‌نام</a> کنید
+        </p>
+        <form id="NumberOrEmailForm">
+          <input class="inputNumberOrEmail" placeholder="شماره تلفن یا ایمیل" type="text" required />
+          <div class="formBtns">
+            <button id="btnVerifyNumber" type="submit">تایید و ادامه</button>
+          </div>
+        </form>
+      </div>
+      <div class="cardSmsPasswordBody">
+        <h2>تایید</h2>
+        <p>
+          رمز یکبار مصرف به
+          <span class="verifingNumber">09123456789</span> پیامک شد<button class="btnEditNumber">
+            ویرایش شماره
+          </button>
+        </p>
+        <form id="form">
+          <div class="formInputs">
+            <input type="text" maxlength="1" pattern="[0-9]{1}" required />
+            <input type="text" maxlength="1" pattern="[0-9]{1}" required />
+            <input type="text" maxlength="1" pattern="[0-9]{1}" required />
+            <input type="text" maxlength="1" pattern="[0-9]{1}" required />
+            <input type="text" maxlength="1" pattern="[0-9]{1}" required />
+            <input type="text" maxlength="1" pattern="[0-9]{1}" required autofocus />
+          </div>
+          <div class="formBtns">
+            <div>
+              <span id="resendField"></span>
+              <progress id="timeProgress" value="120" max="120"></progress>
+            </div>
+            <button id="btn-verify" type="submit">تایید و ادامه</button>
+          </div>
+          <div class="existAccount">
+            <h5>حساب دارید؟</h5>
+            <a href="#">ورود به حساب</a>
+          </div>
+        </form>
+      </div>
+      <p class="footer">https://github.com/Alirewa</p>
+    </div>
+    <img src="assets/image/banner.jpg" />
+  </main>
+  <script src="./app.js"></script>
+</body>
+
+</html>
