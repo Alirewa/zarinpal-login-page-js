@@ -121,12 +121,12 @@ img {
 }
 
 input {
-  border: 1px solid #666;
-  border-radius: 5px;
+  border: 1px solid #b1b1b1;
+  border-radius: 7px;
   text-align: center;
-  padding: 10px 7px;
+  padding: 10px 10px;
   font-family: "Yekan Bakh";
-  width: 40px;
+  width: 50px;
 }
 input:focus {
   border: 2px solid var(--primary-color-dark);
@@ -164,7 +164,7 @@ a:hover,
 
 p {
   font-size: 0.8rem;
-  color: #666;
+  color: #171717;
 }
 
 .existAccount {
